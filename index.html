@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=”UTF-8”>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		<link href="memory.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
+
+  <title>MEMORY GAME</title>
+</head>
+<body>
+  <a name="top"><header></a>
+    <img id="logo" src="logo.jpg" width="60px" alt="logo"/>
+      <nav>
+        <ul>
+          <a href="https://laksonosuryadi.github.io"><li class="underlined">HOME</li></a>
+          <a href="mailto:laksono.suryadi@gmail.com"><li class="contact">Contact</li></a>
+        </ul>
+      </nav>
+  </header>
+  <h1>MEMORY GAME</h1>
+  <p id="flipCount">Flips = 0</p><p id="timer">Time = </p>
+  <div class = "gamecontainer">
+
+    <div class="flip-container" id="card8">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back4" style="background: cyan;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card14">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back7" style="background: blue;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card11">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back6" style="background: pink;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card4">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back2" style="background: yellow;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card12">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back6" style="background: pink;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card1">
+  	<div class="flipper">
+        <div class="front" style="background: grey;"></div>
+        <div class="back1" style="background: red;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card5">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back3" style="background: green;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card13">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back7" style="background: blue;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card3">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back2" style="background: yellow;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card7">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back4" style="background: cyan;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card15">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back8" style="background: bisque;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card9">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back5" style="background: orange;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card16">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back8" style="background: bisque;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card10">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back5" style="background: orange;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card6">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back3" style="background: green;"></div>
+  	</div>
+    </div>
+
+    <div class="flip-container" id="card2">
+      <div class="flipper">
+     	  <div class="front" style="background: grey;"></div>
+   	  <div class="back1" style="background: red;"></div>
+  	</div>
+    </div>
+
+  </div>
+
+    <button id="start" onclick="start()">START</button><br>
+    <button id="button" onclick="reset()">PLAY AGAIN</button>
+
+<script type="text/javascript" src="memory.js"></script>
+</body>
+</html>
